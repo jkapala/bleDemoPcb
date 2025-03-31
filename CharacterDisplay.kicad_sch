@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "7f88ae42-aee1-4d2f-ae53-d2cacfdf34d2")
 	(paper "A4")
+	(title_block
+		(title "Jakka1")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x16_Socket"
 			(pin_names
@@ -1692,6 +1696,18 @@
 		)
 	)
 	(junction
+		(at 144.78 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e9bd5bd-0e48-475d-a0f8-ba4a0cf7c67a")
+	)
+	(junction
+		(at 144.78 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10cde94c-8625-4bf7-8cae-157de8ab0208")
+	)
+	(junction
 		(at 130.81 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1740,16 +1756,26 @@
 		(uuid "ce420eda-e11f-42a0-b1b2-dcc50595392d")
 	)
 	(junction
-		(at 144.78 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2b7404a-b35e-4e26-9202-2bf49363e1ee")
-	)
-	(junction
 		(at 130.81 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6b841a3-20f5-4dbb-9288-1a70a41ff9fd")
+	)
+	(no_connect
+		(at 154.94 111.76)
+		(uuid "28977a68-5045-477c-829f-6be0a8fc8dfd")
+	)
+	(no_connect
+		(at 154.94 116.84)
+		(uuid "9c637ae4-e3ed-4f0c-8f4e-287e22d9b20d")
+	)
+	(no_connect
+		(at 154.94 114.3)
+		(uuid "c9fbd2b8-ad29-4b56-85f8-05683f616e18")
+	)
+	(no_connect
+		(at 154.94 119.38)
+		(uuid "feba3605-b8e6-4dea-b24e-10c9194d653c")
 	)
 	(wire
 		(pts
@@ -1783,6 +1809,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 73.66) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1cc17d-a0cf-4cef-a666-d1d3fb5f749d")
+	)
+	(wire
+		(pts
 			(xy 137.16 121.92) (xy 144.78 121.92)
 		)
 		(stroke
@@ -1813,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 81.28) (xy 144.78 81.28)
+			(xy 151.13 82.55) (xy 144.78 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1913,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 73.66) (xy 157.48 73.66)
+			(xy 138.43 73.66) (xy 144.78 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1953,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 86.36) (xy 151.13 81.28)
+			(xy 151.13 86.36) (xy 151.13 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2249,7 @@
 	)
 	(text "C204A-FTW-LW63\n"
 		(exclude_from_sim no)
-		(at 202.184 95.758 0)
+		(at 210.312 119.634 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2224,13 +2260,23 @@
 	)
 	(text "20 x 4 LCD character display"
 		(exclude_from_sim no)
-		(at 202.438 91.694 0)
+		(at 211.074 100.584 0)
 		(effects
 			(font
 				(size 2.032 2.032)
 			)
 		)
 		(uuid "a0478ddf-8ed3-4694-a90b-bd2a199f1138")
+	)
+	(text "Designed around the C204A-FTW-LW63\nfrom Focus LCDs"
+		(exclude_from_sim no)
+		(at 210.058 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a80cc903-6a94-42a9-b418-4478aefce04b")
 	)
 	(label "DB5"
 		(at 167.64 114.3 180)
@@ -2430,9 +2476,9 @@
 		)
 		(uuid "f7c6a700-f74b-4d5e-bad5-5b0972224434")
 	)
-	(hierarchical_label "LCD_EN"
+	(global_label "LCD_DB1"
 		(shape input)
-		(at 154.94 99.06 180)
+		(at 154.94 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2440,9 +2486,63 @@
 			)
 			(justify right)
 		)
-		(uuid "0f44816f-76a5-4703-801b-bc9292409743")
+		(uuid "1cd4673a-e551-4011-9a20-0bfb78db9b94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.2053 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "DB3"
+	(global_label "LCD_DB0"
+		(shape input)
+		(at 154.94 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a19dfdd-c9ed-402d-84c8-58adc4c8a2d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.2053 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_R{slash}W"
+		(shape input)
+		(at 154.94 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "425011ff-901d-4b09-aa7c-c27e044abaa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.3672 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_DB3"
 		(shape input)
 		(at 154.94 109.22 180)
 		(fields_autoplaced yes)
@@ -2452,7 +2552,83 @@
 			)
 			(justify right)
 		)
-		(uuid "18988089-5353-423d-a642-fe032047d546")
+		(uuid "5032320c-b936-4990-8441-187880b9d6f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.6696 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_EN"
+		(shape input)
+		(at 154.94 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "608349db-8dc5-43ca-aa3f-116301feefae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.9396 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_DB2"
+		(shape input)
+		(at 154.94 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e350b63-17e7-45de-aa2d-fb9f0b46c403")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.2053 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_REG_SEL"
+		(shape input)
+		(at 154.94 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb2326b6-2fb6-43dd-8607-8055a1dc2034")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.9116 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "LED-"
 		(shape passive)
@@ -2477,114 +2653,6 @@
 			(justify right)
 		)
 		(uuid "3d23f749-9ab7-48c2-86d6-36d4ef0c4e62")
-	)
-	(hierarchical_label "DB0"
-		(shape input)
-		(at 154.94 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a0536b9-40a2-4a0e-98c2-e0874b7d703c")
-	)
-	(hierarchical_label "R{slash}W"
-		(shape input)
-		(at 154.94 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "586da0fa-3123-44d4-acca-2d5a5a7b9a47")
-	)
-	(hierarchical_label "DB5"
-		(shape input)
-		(at 154.94 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58b4b67e-f792-431f-b68b-a4c36e2dcc53")
-	)
-	(hierarchical_label "REG_SEL"
-		(shape input)
-		(at 154.94 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81ee7f2b-e8a6-4373-92a4-ea2ee52b7ff6")
-	)
-	(hierarchical_label "DB7"
-		(shape input)
-		(at 154.94 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6e2a4ef-fc64-4dd4-9be0-ccd15144bdb7")
-	)
-	(hierarchical_label "DB6"
-		(shape input)
-		(at 154.94 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7bc6172-480b-4f51-8ed1-95961b7a7017")
-	)
-	(hierarchical_label "DB2"
-		(shape input)
-		(at 154.94 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c17228f7-06dc-45cc-bd4c-03043c3aafab")
-	)
-	(hierarchical_label "DB4"
-		(shape input)
-		(at 154.94 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fcb232df-fdc8-463e-a43d-9f521519cc48")
-	)
-	(hierarchical_label "DB1"
-		(shape input)
-		(at 154.94 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd074316-01ab-431b-a699-ddeedadca5bf")
 	)
 	(symbol
 		(lib_id "jka_library:23BR10KLFTR")
