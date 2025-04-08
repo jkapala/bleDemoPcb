@@ -1,6 +1,22 @@
 # Overview
 The following PCB project has a few goals. Namely, it is a training board to expose the designer to working with various features. In this way, it serves as a development board first and foremost. The hardware and or firmware features that should be explored with the board are listed in the specifications document. Primarily, the project focuses on utilizing STM32 architecture to build a BLE enabled board.
 
+## 4/7/2025 Update
+The Design Output document is done! I have now edited it and reviewed it so that it is now a complete draft that matches the layout and schematic. The schematic has also been reviewed and edited to fix little things and improve readibility. As well, a few changes were made to the schematic and layout. Namely, a header to access the USB VBUS rail after the current sense resitor has been added, a ground pin has been added to the analog input channel header, and the ESD diodes for the SD card were swapped for ones with lower breakdown/clamping voltage. 
+
+At this stage, I consider all the design files to be in good standing and in agreement with each other. The next step will be to generate a BOM and scrutinize the pinouts of the selected components to the schematics/layout files.
+
+In summary, I believe this commit is a complete draft of both the schematic, layout, and design output.
+
+**Top View**
+![3D Render of Top View](./Screenshots/Routing%20done%20-%204.7.2025%20-%20Top%20view.PNG)
+
+**Bottom View**
+![3D Render of Top View](./Screenshots/Routing%20done%20-%204.7.2025%20-%20Bottom%20view.PNG)
+
+**Layer View**
+![PCB Layout Layer View](./Screenshots/Routing%20done%20-%204.7.2025%20-%20metal%20view.PNG)
+
 ## 3/31/2025 Update
 Layout of the PCB is finished! I do not expect to change very much now regarding the circuit design or changing the board in any major way. DRC check has run and there are no major issues remaining. Any additional changes should be mainly cosmetic in the PCB and organizational in the schematic files. An additional final check that could necessitate a change is to use the STM32Cube IDE to verify that the pinout for the peripherals is correct, though it was used throughout for this already. The final footprint should focus most interaction to the top of the board. For ease of mounting the referenced LCD character display to the board, a female 2.54mm socket can be attached to the back of the board and the mounting holes in the corners should be aligned so that the screen can be mounted using standoffs/screws.
 

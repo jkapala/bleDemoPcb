@@ -8,11 +8,12 @@
 		(title "Jakka1")
 		(date "2025-03-31")
 		(rev "1")
+		(company "Jacob Kapala")
 	)
 	(lib_symbols)
 	(rectangle
-		(start 207.01 85.09)
-		(end 267.97 130.81)
+		(start 149.86 85.09)
+		(end 210.82 130.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -23,8 +24,8 @@
 		(uuid 7afb80a8-ffc4-4ac4-983f-56f953b2d1c1)
 	)
 	(rectangle
-		(start 149.352 24.892)
-		(end 271.78 71.882)
+		(start 149.86 24.892)
+		(end 271.78 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -59,8 +60,8 @@
 		(uuid d9dfabb3-ca9e-4a4c-a7c1-45ceeb7030fd)
 	)
 	(rectangle
-		(start 148.082 85.09)
-		(end 195.58 130.81)
+		(start 225.552 85.09)
+		(end 273.05 130.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -96,7 +97,7 @@
 	)
 	(text "Header Connections"
 		(exclude_from_sim no)
-		(at 171.196 80.772 0)
+		(at 248.666 80.772 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -130,9 +131,9 @@
 		)
 		(uuid "4d559860-843f-4395-a939-fe496db69e6b")
 	)
-	(text "Header Connections"
+	(text "Analog Sensing"
 		(exclude_from_sim no)
-		(at 233.68 80.01 0)
+		(at 176.53 80.01 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -193,7 +194,7 @@
 		)
 	)
 	(sheet
-		(at 161.29 99.06)
+		(at 238.76 99.06)
 		(size 20.32 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -205,7 +206,7 @@
 		)
 		(uuid "2928176f-cec5-4da8-83b4-3443a875c539")
 		(property "Sheetname" "Headers"
-			(at 161.29 98.3484 0)
+			(at 238.76 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -214,7 +215,7 @@
 			)
 		)
 		(property "Sheetfile" "Headers.kicad_sch"
-			(at 161.29 116.1546 0)
+			(at 238.76 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +270,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 99.06)
+		(at 170.18 99.06)
 		(size 19.05 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -281,7 +282,7 @@
 		)
 		(uuid "3eeb47c2-aadd-460f-8771-133d63a06519")
 		(property "Sheetname" "Analog Sensing"
-			(at 227.33 98.3484 0)
+			(at 170.18 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +291,7 @@
 			)
 		)
 		(property "Sheetfile" "Analog_Sensing.kicad_sch"
-			(at 227.33 117.4246 0)
+			(at 170.18 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

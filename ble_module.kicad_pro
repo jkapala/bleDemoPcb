@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.1524
         }
       },
       "diff_pair_dimensions": [
@@ -191,7 +191,7 @@
         0.1524,
         0.2032,
         0.254,
-        0.360934,
+        0.33274,
         0.42164,
         0.508,
         1.016,
@@ -460,7 +460,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -536,7 +536,11 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/RF Block/RF_50_OHM": "50R",
+      "USB_D+": "USB Data",
+      "USB_D-": "USB Data"
+    },
     "netclass_patterns": [
       {
         "netclass": "RF Out",

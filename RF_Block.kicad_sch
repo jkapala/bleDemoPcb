@@ -7,6 +7,7 @@
 	(title_block
 		(title "Jakka1")
 		(rev "1")
+		(company "Jacob Kapala")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -1593,7 +1594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13159a93-c88b-4a9e-94a3-9b6e1c54a249")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 113.03 114.3 0)
 			(effects
 				(font
@@ -1643,7 +1644,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1659,7 +1660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "168b290e-a52a-41aa-bc16-2047d7347022")
-		(property "Reference" "C43"
+		(property "Reference" "C48"
 			(at 80.01 105.4099 0)
 			(effects
 				(font
@@ -1713,7 +1714,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "C43")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -1797,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ef8fa30-3ac7-4315-b89e-fa033259f466")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR079"
 			(at 152.4 92.71 0)
 			(effects
 				(font
@@ -1847,7 +1848,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "#PWR082")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1863,7 +1864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235d41b2-67e3-4114-bf13-213075425bcf")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR082"
 			(at 191.77 121.92 0)
 			(effects
 				(font
@@ -1913,7 +1914,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "#PWR036")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -1929,7 +1930,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "263aaa64-2380-476b-831a-1cf3fa4d3592")
-		(property "Reference" "L6"
+		(property "Reference" "L4"
 			(at 186.69 109.2199 0)
 			(effects
 				(font
@@ -1983,7 +1984,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "L6")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -2139,7 +2140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "486cc928-7199-4887-97a2-09bd16fddde3")
-		(property "Reference" "C15"
+		(property "Reference" "C47"
 			(at 191.77 95.504 90)
 			(effects
 				(font
@@ -2191,7 +2192,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "C15")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c86e4350-cdee-4f33-959f-cca0c84e72eb")
-		(property "Reference" "J12"
+		(property "Reference" "J6"
 			(at 199.39 127.2931 0)
 			(effects
 				(font
@@ -2261,7 +2262,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "J12")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2277,7 +2278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9c90d8f-c4a6-458e-9c60-60ab2301cfa1")
-		(property "Reference" "C44"
+		(property "Reference" "C49"
 			(at 97.79 105.4099 0)
 			(effects
 				(font
@@ -2331,7 +2332,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "C44")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -2347,7 +2348,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "da39f71a-3320-492b-9a0b-e3bfe15e26b5")
-		(property "Reference" "R42"
+		(property "Reference" "R46"
 			(at 173.99 115.5699 0)
 			(effects
 				(font
@@ -2401,7 +2402,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "R42")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -2493,7 +2494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1c8160d-ff67-49bb-9108-dc2c81c51958")
-		(property "Reference" "L7"
+		(property "Reference" "L5"
 			(at 199.39 109.2199 0)
 			(effects
 				(font
@@ -2547,7 +2548,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "L7")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -2563,7 +2564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea022044-3db7-4d34-b2af-c2f18b2eee9c")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR083"
 			(at 195.58 142.24 0)
 			(effects
 				(font
@@ -2613,7 +2614,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "#PWR035")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2629,7 +2630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe04e3cb-1ad7-4cf9-a729-021c1f45e4a4")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR081"
 			(at 85.09 119.38 0)
 			(effects
 				(font
@@ -2679,7 +2680,7 @@
 		(instances
 			(project "ble_module"
 				(path "/3b561680-a5a9-4ef7-9070-6faec7e701e7/7a8a63bd-9ae3-4282-8ab7-a661c2c2a3b3"
-					(reference "#PWR080")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
