@@ -2,6 +2,8 @@
 
 This project started with the goal of building a circuit around the STM32 architecture and incorporate various features to evaluate them, which are called out in the Specifications document. A major goal of the project was also to document the project here, making sure to share my progress and use version control. Namely, I wanted to build a board to utilize BLE/WiFi directly, using a PIFA PCB or ceramic chip antenna, instead of using a Wireless module PCB as I have done in the past. As that is the primary goal of the project, other features were secondary but I was able to incorporate a lot of the initial specifications I made and even add some that could lend themselves to a compelling demo of the board. Unfortunately, the STM line of chips does not support WiFi so it was decided that it should be exluded from the project and BLE will be the primary wireless protocol used.
 
+The firmware can be located at this repository: https://github.com/jkapala/bleDemoFirmware
+
 **System Diagram**
 ![3D Render of Top View](<./Images/System Diagram.svg>)
 
